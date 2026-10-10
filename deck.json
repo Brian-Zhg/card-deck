@@ -1,0 +1,130 @@
+{
+    "deck": [
+        {
+            "name": "Kageningen",
+            "attack": 800,
+            "defense": 600,
+            "image": "images/Kageningen.webp"
+        },
+        {
+            "name": "Baby Dragon",
+            "attack": 1200,
+            "defense": 700,
+            "image": "images/BabyDragon.webp"
+        },
+        {
+            "name": "Big insect",
+            "attack": 1200,
+            "defense": 1500,
+            "image": "images/BigInsect.webp"
+        },
+        {
+            "name": "Blackland Fire Dragon",
+            "attack": 1500,
+            "defense": 800,
+            "image": "images/BlacklandFireDragon.webp"
+        },
+        {
+            "name": "Dark Magician",
+            "attack": 2500,
+            "defense": 2100,
+            "image": "images/DarkMagician.webp"
+        },
+        {
+            "name": "Destroyer Golem",
+            "attack": 1500,
+            "defense": 1000,
+            "image": "images/DestroyerGolem.webp"
+        },
+        {
+            "name": "Hitotsu Me Giant",
+            "attack": 1200,
+            "defense": 1000,
+            "image": "images/HitotsuMeGiant.webp"
+        },
+        {
+            "name": "Illusionist Faceless Mage ",
+            "attack": 1200,
+            "defense": 2200,
+            "image": "images/IllusionistFacelessMage.webp"
+        },
+        {
+            "name": "Labyrinth Wall",
+            "attack": 0,
+            "defense": 3000,
+            "image": "images/LabyrinthWall.webp"
+        },
+        {
+            "name": "Lady of Faith",
+            "attack": 1100,
+            "defense": 800,
+            "image": "images/LadyofFaith.webp"
+        },
+        {
+            "name": "Masaki the Legendary Swordsman",
+            "attack": 1100,
+            "defense": 1100,
+            "image": "images/MasakitheLegendarySwordsman.webp"
+        },
+        {
+            "name": "M Warrior 1",
+            "attack": 1000,
+            "defense": 500,
+            "image": "images/MWarrior1.webp"
+        },
+        {
+            "name": "Saggi the Dark Clown",
+            "attack": 600,
+            "defense": 1500,
+            "image": "images/SaggitheDarkClown.webp"
+        },
+        {
+            "name": "Silver Fang",
+            "attack": 1200,
+            "defense": 800,
+            "image": "images/SilverFang.webp"
+        },
+        {
+            "name": "Summoned Skul",
+            "attack": 2500,
+            "defense": 1200,
+            "image": "images/SummonedSkul.webp"
+        },
+        {
+            "name": "Zoa",
+            "attack": 2600,
+            "defense": 1900,
+            "image": "images/Zoa.webp"
+        },
+        {
+            "name": "Castle of Dark Illusions",
+            "attack": 920,
+            "defense": 1930,
+            "image": "images/CastleofDarkIllusions.webp"
+        },
+        {
+            "name": "MonsterTamer",
+            "attack": 1800,
+            "defense": 1600,
+            "image": "images/MonsterTamer.webp"
+        },
+        {
+            "name": "Witch of the Black Forest",
+            "attack": 1100,
+            "defense": 1200,
+            "image": "images/WitchoftheBlackForest.webp"
+        },
+        {
+            "name": "Shadow Ghoul",
+            "attack": 1600,
+            "defense": 1300,
+            "image": "images/ShadowGhoul.webp"
+        },
+        {
+            "name": "SwampBattleguard",
+            "attack": 1800,
+            "defense": 1500,
+            "image": "images/SwampBattleguard.webp"
+        }
+    ]
+}
