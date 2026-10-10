@@ -27,9 +27,7 @@
     flex-wrap: wrap; /* Move cards to the next line if needed */
 }
 
-.deck:hover p{
-    display: block;
+.deck:hover img{
     cursor: pointer;
-    visibility: visible;
 }
 

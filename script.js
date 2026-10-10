@@ -41,7 +41,7 @@ class card {
         this.backImage.src = "images/backcard.webp";
         this.backImage.classList.add("back");
 
-        this.cardElement.addEventListener('click', this.onClick);
+        this.cardElement.addEventListener('click', () => this.showInfo());
 
         // append .book element into container element
         document.getElementById("card_container").appendChild(this.cardElement);
@@ -53,8 +53,18 @@ class card {
         this.nameElement.innerText = "Name: " + this.name;
         this.attackElement.innerText = "Attack: " + this.attack;
         this.defenseElement.innerText = "Defense: " + this.defense;
-
     }
+
+    showInfo() {
+    this.p.style.visibility =
+        this.nameElement.style.visibility === "hidden" ? "visible" : "hidden";
+
+    this.attackElement.style.visibility =
+        this.attackElement.style.visibility === "hidden" ? "visible" : "hidden";
+
+    this.defenseElement.style.visibility =
+        this.defenseElement.style.visibility === "hidden" ? "visible" : "hidden";
+}
 
     borrow() {
         let newNumCopies = this.numCopies - 1;
