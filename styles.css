@@ -3,17 +3,20 @@
 
 .deck{
     font-family: 'Cinzel';
-    text-align: center;
+    text-align: center; 
 }
+
 
 .deck p{
     font-size: large;
     font-weight: bold;
+    visibility: hidden;
 }
 
 .deck img{
     width: 400px;
     height: 540px;
+    position: relative;
 }
 
 #card_container{
@@ -22,5 +25,11 @@
     gap: 20px; /* Space between cards */
     justify-content: space-between;
     flex-wrap: wrap; /* Move cards to the next line if needed */
+}
+
+.deck:hover p{
+    display: block;
+    cursor: pointer;
+    visibility: visible;
 }
 

@@ -36,10 +36,11 @@ class card {
         this.cardElement.appendChild(this.nameElement);
         this.cardElement.appendChild(this.attackElement);
         this.cardElement.appendChild(this.defenseElement);
+        this.backImage = document.createElement('img');
 
-         this.onClick = function() {
-            flipCard();
-        }
+        this.backImage.src = "images/backcard.webp";
+        this.backImage.classList.add("back");
+
         this.cardElement.addEventListener('click', this.onClick);
 
         // append .book element into container element
@@ -49,15 +50,15 @@ class card {
     updateDeck() {
         // put the book data into the elements
         this.imageElement.src = this.image;
-        this.nameElement.innerText = "Name: "+this.name;
-        this.attackElement.innerText = "Attack: " +this.attack;
-        this.defenseElement.innerText = "Defense: "+ this.defense; 
-        
+        this.nameElement.innerText = "Name: " + this.name;
+        this.attackElement.innerText = "Attack: " + this.attack;
+        this.defenseElement.innerText = "Defense: " + this.defense;
+
     }
 
     borrow() {
         let newNumCopies = this.numCopies - 1;
-        if (newNumCopies < 1){
+        if (newNumCopies < 1) {
             this.bookElement.classList.add('disabled');
             // this.bookElement.removeEventListener('click', this.onClick);
             this.numCopies = 0;
