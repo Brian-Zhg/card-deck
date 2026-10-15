@@ -56,7 +56,7 @@ class card {
     }
 
     showInfo() {
-    this.p.style.visibility =
+    this.nameElement.style.visibility =
         this.nameElement.style.visibility === "hidden" ? "visible" : "hidden";
 
     this.attackElement.style.visibility =
